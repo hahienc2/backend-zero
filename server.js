@@ -1,16 +1,10 @@
-const http = require('http'); 
+const express = require('express')
+const app = express()
 
-const hostname = 'localhost';
-const port = 3000;
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n heheh');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+app.listen(3000)
 
 // Ctrl + C : tat server
