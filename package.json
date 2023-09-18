@@ -1,0 +1,24 @@
+{
+  "name": "full-backend-zero",
+  "version": "1.0.0",
+  "description": "fullstack backend rero",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahienc2/backend-zero.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Isaac Ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahienc2/backend-zero/issues"
+  },
+  "homepage": "https://github.com/hahienc2/backend-zero#readme"
+}
